@@ -42,8 +42,8 @@ def rossmann_predict():
 
     
 if __name__ == '__main__':
-    as.environ.get( 'PORT', 5000 )
-    app.run( host='192.168.0.106', port=port)
+    port = os.environ.get( 'PORT', 5000 )
+    app.run( host='0.0.0.0', port=port)
 
     
  

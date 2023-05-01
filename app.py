@@ -38,7 +38,7 @@ def rossmann_predict():
         return df_response
     
     else:       
-        return Response( '{}', status= 200, mimetype='application/json')
+        return Reponse( '{}', status= 200, mimetype='application/json')
 
     
 if __name__ == '__main__':

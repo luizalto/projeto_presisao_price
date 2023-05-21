@@ -3,5 +3,5 @@ inflection==0.5.1
 numpy==1.24.3
 pandas==2.0.1
 xgboost==1.7.5
-sckit-learn==1.1.1
+scikit-learn==1.1.1
 
